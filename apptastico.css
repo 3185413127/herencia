@@ -1,0 +1,98 @@
+@media screen and (min-width: 768px)
+{
+
+}
+*{
+    font-family:sans-serif;
+    list-style:none;
+    text-decoration:none;
+    margin:0;
+    padding:0;
+    }
+     
+    .nav  li {
+    float:right;
+    }
+     
+    .nav li a {
+    background: gray;
+    color:#FFF;
+    display:block;
+    border:1px solid;
+    padding:10px 12px;
+    }
+     
+    .nav li a:hover {
+    border-radius:50%;
+-webkit-border-radius:50%;
+box-shadow: 0px 0px 15px 15px #74a2f8;
+-webkit-box-shadow: 0px 0px 15px 15px #1ea0ec;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+    background:#0fbfc6;
+    filter: opacity(.5);
+    }
+
+.productos{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.productos1{
+    background-color: gray;
+    color : white;
+    transition:all .5s ease-in-out;
+
+}
+
+.productos1 button{
+    background-color: #008CBA;
+    font-size: 12px;
+    padding: 10px 24px;
+    border-radius: 40%;
+    border:none;
+    color:#FFF;
+    transition:all .5s ease-in-out;
+
+
+}
+
+.productos2{
+    background-color: white;
+    color : grey;
+}
+
+.productos3{
+    background-color: white;
+    color : gray;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grupo{
+    width: 600px;
+}
+
+.imagenes{
+    
+    display: flex;
+    justify-content:  space-around;
+}
+
+.blog{
+    display:flex;
+    justify-content: space-column;
+}
+
+.grupo button {
+    background-color: #008CBA;
+    font-size: 12px;
+    padding: 10px 24px;
+    height: 50px;
+    width: 150px;
+    border:none;
+    color:#FFF;
+    justify-content: space-around;
+    transition:all .5s ease-in-out;
+} 
